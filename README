@@ -34,12 +34,12 @@ To-Do List App
 ## ⚙️ **Setup & Installation**
 1. **Clone the repository:**
 ```sh
-git clone https://github.com/your-username/todo-list-app.git
+git clone https://github.com/MALLIKHARJUNCHILUKURI-02/to_do_list.git
 ```
 
 2. **Navigate to the project directory:**
 ```sh
-cd todo-list-app
+cd to_do_list
 ```
 
 3. **Open `index.html` in your browser:**
