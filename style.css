@@ -1,0 +1,117 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Sets the default font */
+    background-color: #f0f0f0; /* Light grey background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box; /* Consistent padding and border management */
+}
+
+/* Main app container */
+.app-container {
+    background: white; /* White background for the app */
+    padding: 20px; /* Space inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: 100%;
+    max-width: 500px; /* Maximum width for responsiveness */
+}
+
+/* Title styling */
+h1 {
+    margin: 0 0 20px; /* Bottom margin for spacing */
+}
+
+/* Input container layout */
+.input-container {
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+    gap: 10px; /* Space between input elements */
+    margin-bottom: 20px; /* Space below the input section */
+}
+
+/* Input and textarea styling */
+input[type="text"],
+textarea {
+    flex: 1; /* Fills available space */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded input edges */
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px; /* Space inside the button */
+    border: none;
+    background-color: #28a745; /* Green color */
+    color: white; /* White text */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.2s; /* Smooth color transition */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Unordered list styling */
+ul {
+    list-style-type: none; /* Removes default bullets */
+    padding: 0; /* No padding */
+}
+
+/* List item styling */
+li {
+    display: flex;
+    justify-content: space-between; /* Spreads items evenly */
+    padding: 10px;
+    border: 1px solid #ddd; /* Border around items */
+    margin-bottom: 5px; /* Space between items */
+    border-radius: 4px; /* Rounded edges */
+    background-color: #fff; /* White background */
+    align-items: center; /* Vertically aligns content */
+    overflow-wrap: break-word; /* Prevents overflow */
+}
+
+/* Completed task styling */
+li.completed {
+    text-decoration: line-through; /* Strikes through text */
+    color: #888; /* Greyed-out text */
+}
+
+/* Delete button styling */
+.delete {
+    background-color: red; /* Red background */
+    color: white; /* White text */
+    padding: 5px 10px; /* Inner padding */
+    border-radius: 4px; /* Rounded corners */
+    border: none;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.2s; /* Smooth transition */
+    margin-top: 10px; /* Space above the button */
+}
+
+/* Delete button hover effect */
+.delete:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+/* Task display styling */
+.displaytask {
+    width: 300px; /* Sets a fixed width */
+    overflow: hidden; /* Hides overflow content */
+    white-space: normal; /* Allows multiline text */
+    word-wrap: break-word; /* Breaks long words */
+    word-break: break-all; /* Breaks at any character */
+}
+
+/* Paragraph inside task display */
+.displaytask p {
+    margin: 0;
+    padding: 0;
+}
